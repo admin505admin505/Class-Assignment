@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Resume</title>
+  <link href="styles.css" rel="stylesheet" />
+</head>
+
+<body>
+  <div class="resume">
+    <header>
+      <h1>Jacob Alverson</h1>
+      <p>Web Developer, Cyber-security specialist</p>
+      <div class="contact">
+        <p>📧 cy836739m@gmail.com</p>
+        <p>📱 (812) 499-0382</p>
+        <p>📍 Evansville, IN</p>
+      </div>
+    </header>
+
+    <section class="summary">
+      <h2>Professional Summary</h2>
+      <p>
+         <li>Web-developer</li>
+         <li>Cyber-security</li>
+      </p>
+    </section>
+
+    <section class="experience">
+      <h2>Home City Ice</h2>
+      <div class="job">
+        <h3>Loader</h3>
+        <p class="date">2024 - 2024</p>
+        <ul>
+          <li>Machine operator</li>
+          <li>Manager job</li>
+          <li>Operate forklift</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="education">
+      <h2>Education</h2>
+      <div class="degree">
+        <h3>Central High School</h3>
+        <p style="color:brown;">2020-present</p>
+      </div>
+    </section>
+
+    <section class="skills">
+      <h2>Skills</h2>
+      <div class="skill-list">
+        <span>Communication</span>
+         <span>Inventory management</span>
+         <span>Computer engineer</span>
+        
+      </div>
+    </section>
+  </div>
+</body>
+<body>
+   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: black;
+    color: #333;
+    padding: 20px;
+}
+
+.resume {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h1 {
+    color: black;
+    font-size: 2.5em;
+    margin-bottom: 5px;
+}
+
+header p {
+    color: black;
+    font-size: 1.2em;
+}
+
+.contact {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 15px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: black;
+    border-bottom: 2px solid black;
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+.job {
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: black;
+    margin-bottom: 5px;
+}
+
+.date {
+    color: brown;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+ul {
+    padding-left: 20px;
+    color:black;
+}
+
+li {
+    margin-bottom: 5px;
+    color:black;
+}
+
+.skill-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.skill-list span {
+    background-color: black;
+    color: white;
+    padding: 5px 15px;
+    border-radius: 15px;
+    font-size: 0.9em;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    
+    .resume {
+        padding: 20px;
+    }
+    
+    .contact {
+        flex-direction: column;
+        gap: 5px;
+    }
+    
+    h1 {
+        font-size: 2em;
+    }
+}
+</body>
+</html>
